@@ -30,3 +30,13 @@ Zendú es una plataforma marketplace para la reserva de alojamientos campestres,
 | Infraestructura | Docker + GitHub Actions |
 
 ## 🗂️ Estructura del Proyecto
+zendu/
+├── backend/ # API Spring Boot
+├── frontend/ # App React + TypeScript
+├── database/ # Migraciones y seeds
+├── docs/ # Documentación completa
+│ ├── 01-business/ # Modelo de negocio
+│ ├── 02-technical/ # Arquitectura
+│ ├── 03-development/# Guías
+│ └── 04-deployment/ # Infraestructura
+└── docker-compose.yml # Entorno local
